@@ -1,0 +1,39 @@
+.example-card {
+    max-width: 400px;
+  }
+
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  mat-button-toggle-group {
+    margin-left: 12px;
+  }
+
+
+  .navbar{
+
+justify-content: space-between;
+
+  }
+
+  span{
+
+    padding-right: 5px;
+  }
+
+  mat-sidenav-container{
+
+  height: 100%;
+  }
+  mat-sidenav,mat-sidenav-content {
+
+    padding :15px;
+  }
+
+  mat-sidenav {
+
+    background-color: blueviolet;
+    width: 200px;
+  }

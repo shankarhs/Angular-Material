@@ -1,0 +1,30 @@
+<!-- <div>
+  <mat-icon color="accent">commute</mat-icon>
+</div>
+
+<span matBadge="5">Notification</span>
+
+<mat-spinner>Spinns </mat-spinner>
+
+<mat-toolbar color="primary" class="navbar">
+ <div> Navigation </div>
+
+ <div>
+<span>Home</span>
+ <span>Contact</span>
+ <span>Others</span>
+</div>
+</mat-toolbar> -->
+
+<mat-sidenav-container>
+
+  <mat-sidenav mode="side" [(opened)]="opened" >SideNav</mat-sidenav>
+
+  <mat-sidenav-content>Main Menu</mat-sidenav-content>
+
+
+</mat-sidenav-container>
+
+<button mat-button (click)="opened=!opened">Toggle Menu</button>
+
+
